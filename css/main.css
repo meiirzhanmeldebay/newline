@@ -841,13 +841,13 @@ footer .row>p{
 
 
 /*.test*/
-/*.main{
+.main{
 	position: relative;
 	width: 100%;
 	height: 100%;
 }
 .main .outer{
-	position: absolute;
+	position: relative;
 	background-color: orange;
 	width: 400px;
 	height: 400px;
@@ -855,21 +855,25 @@ footer .row>p{
 	margin-left: 100px;
 }
 .main .inner{
-	display: inline-block;
+	/*display: inline-block;*/
+	text-align: center;
 	position: absolute;
 	background-color: transparent;
-	width: 100px;
-	height: auto;
 	top:0;
 	left: 0;
 	right: 0;
 	bottom: 0;
+	width: 100px;
+	height: auto;
+	transform: rotate(90deg);
 }
 .main .outer .inner .dot{
+	margin-top: 300px;
 	display: inline-block;
 	margin-left: 5px;
 	background: red;
 	width: 5px;
 	height: 5px;
-	position: absolute;
-}	*/
+
+	/*position: absolute;*/
+}	
